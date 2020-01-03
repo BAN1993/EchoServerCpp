@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\base">
+      <UniqueIdentifier>{597ac7e6-eb44-4d43-9302-efb352413204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tool">
+      <UniqueIdentifier>{87fdb64a-2a92-471f-a39b-5d33f7e9db71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{11d886be-20df-4073-9b4c-5683f6bb0cf8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base64.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Condition.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lock.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Log.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MallocManager.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MallocPool.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sha1.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Thread.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SystemMonitor.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\base\base64.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Condition.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\FreeQueue.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Lock.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Log.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\MallocManager.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\MallocPool.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\sha1.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Thread.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Utils.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Base.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tool\ParseIni.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tool\Uncopyable.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tool\Singleton.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\SystemMonitor.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+only for windows - Debug,x64
+
+方便windows上编译调试特意加了这个库代码
+但是linux上需要另外装或者进project装到系统库目录下
+

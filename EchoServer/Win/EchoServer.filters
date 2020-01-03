@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\base">
+      <UniqueIdentifier>{e2c83bcf-328e-42d6-a3c8-7592c53007c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\socket">
+      <UniqueIdentifier>{7dcc7b56-743d-473a-9aed-de405a17dcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\protocol">
+      <UniqueIdentifier>{ce613784-7104-4830-816b-ba2742270b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tool">
+      <UniqueIdentifier>{5c928682-a5a1-4ac4-8b94-98d40686d8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code">
+      <UniqueIdentifier>{282121d4-8a0c-40fe-839a-0c57bb3351f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\redis">
+      <UniqueIdentifier>{5f2cba46-2240-4c93-8f85-a0715b438c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\tool\ParseIni.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ServerIOSocket.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ServerSocket.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ServerSocketIOThread.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\SocketBase.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ClientIOSocket.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ClientSocket.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\ClientSocketIOThread.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\protocol\ProtocolBase.h">
+      <Filter>include\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\protocol\Biosream.h">
+      <Filter>include\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Lock.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Log.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\MallocManager.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\MallocPool.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\sha1.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Thread.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Utils.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Base.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\base64.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Condition.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\FreeQueue.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tool\Uncopyable.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tool\Singleton.h">
+      <Filter>include\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Server.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ServerConfig.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\redis\redisClient.h">
+      <Filter>include\redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Player.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PlayerManager.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\SystemMonitor.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SomeDefine.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\AgentClient.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\socket\AgentServer.h">
+      <Filter>include\socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Server.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ServerConfig.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProtocolFromClient.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProtocolFromDB.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Player.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\PlayerManager.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProtocolFromGS.cpp">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
